@@ -1,25 +1,17 @@
 
 ## web-socket  project  
 
-  I am learning web socket after an unfortunate realisation that I have no idea how web socket works. So I basically spend the day reading documentation and playing around-- there is a lot of tutorial implementing web socket for chat application  but this is not really what I needed to do.  Below is a demo of what I can ended up with-- but still working on improving :)
-
-  the requirement are:
+  I am learning web socket after an unfortunate realisation during a test for a job that I had no idea how web socket works. So I basically spend the day afterwards reading documentation and playing around-- there is a lot of tutorial implementing web socket for chat application  but this is not really what I needed to do.  Below is a demo of what I ended up with so far -- but still working on improving :)
 
   ## 🧐 Front-end Developer Test intruction
-
-Here is the programming challenge we would wish you to solve:
-
+  The requirement were:
 1. Analyse the prepared WebSocket API connection in the html file.
-
 2. Using this connection, send an `Active Symbols` API call after receiving the response of `Authorize`. Note that there is a list of markets and symbols in the `Active Symbols` response.
-
 3. Display all the symbols belonging to the `volidx` market in a drop-down.
-
 4. According to the selected symbol in the drop-down:
 - Send a `Tick Stream` API call using the same WebSocket connection
 - Display a box containing the `quote` value of the latest 10 ticks. That means the list should be updated on every new tick received, but always display the latest 10 ticks.
 - Please note that on every change in the drop-down, you should forget the previous stream, using `Forget` or `Forget All` API calls, and send a `Tick Stream` API call for the newly selected symbol.
-
 <br>
 **Instructions**
 9.
@@ -33,27 +25,15 @@ Here is the programming challenge we would wish you to solve:
 I choose javaScript to do the task
 
 
- ## 🧐 What's inside?
-
-
-A quick look at the top-level files and directories you'll see in the project.
-
-FOLDER STRUCTURE
-( ROOT )
-
---- index.html
---- app.js
---style.css
-
-     ## Demo -- 
-
-     ![web-socket-first-attempt](https://user-images.githubusercontent.com/18241226/62806948-16424200-baec-11e9-8916-f7455b426e74.gif)
+ ## 🧐  Demo
+ 
+![web-socket-first-attempt](https://user-images.githubusercontent.com/18241226/62806948-16424200-baec-11e9-8916-f7455b426e74.gif)
 
 
 
      
 
-     What I have successfully been able to do :
+What I have successfully been able to do :
 1. sent an `Active Symbols` API call after receiving the response of `Authorize`.
 2. Display all the symbols belonging to the `volidx` market in a drop-down.
 3. According to the selected symbol in the drop-down:

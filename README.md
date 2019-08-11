@@ -1,3 +1,7 @@
+There is two mini projects in this repo one is related to a coding interview test. ( still working on improving it).
+
+And another one is sample chat , it is located on the sample_webSocket_test folder- there is also a read me file related to this sample chat with details and demo.
+
 
 ## web-socket  project  
 
@@ -49,7 +53,7 @@ my comment: I need to check  within the API doc...
 
 
 
-some intresting article:
+some interesting article:
 
 https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications
 

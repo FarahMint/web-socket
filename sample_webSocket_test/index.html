@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <meta charset="utf-8" />
+  <head>
+    <meta charset="utf-8">
+    <title>WebSocket Test</title> 
+</head>
+ <link rel="stylesheet" href="style.css">
+
+<body>  
+<main>
+        <div class="socket-status"></div>
+            <div id="output">
+                <div class="createLog-action">
+                        <h1> sample chat </h1>
+                <div class="connect-action">
+                    <button class="connect_message on">connect</button>
+                    <button class="connect_message off">disconnect</button>
+                </div>
+          
+                <form> 
+                 <label for="message">Message:</label>
+                    <input type="text" name="message" placeholder="enter a message"/>
+                    <br/>
+                    <button type="submit" class="connect_message send">send</button>
+                    <button type="submit" class="connect_message clear">clear</button>
+                </form>
+            </div>
+            
+            <div class="consoleLog"> </div>
+          </div>
+        
+    
+</main>
+   
+  <script src="main.js"></script>    
+</body>
+  
+</html>

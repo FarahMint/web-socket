@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    color:#FFF;
+    background-color:#235789;
+    
+}
+
+  h1{
+      text-transform: uppercase;
+  }
+
+input:focus,button:focus{
+    outline: none;
+}
+
+button{
+    width:125px;
+    height: 30px;
+    background-color: transparent;
+    margin: 1rem  0;
+    cursor: pointer;
+    padding: 0 1rem;
+    font-size: 1rem;
+    color: #FDFFFE;
+ 
+    border:none;
+
+}
+
+input{
+    width:100%;
+    height: 30px;
+    margin: 1rem 0;
+    padding:1rem;
+}
+
+/* LOG STATUS */
+.socket-status {
+    display: none;
+    text-align:center;
+    margin-top: 2rem;
+    border: 2px solid #060;
+    background-color: #F0FFF0;
+    padding: 10px;
+    font-size: 16px;
+    color: #0d8900;
+}
+
+.active{
+    display:block;
+}
+ 
+
+
+/* END LOG STATUS */
+#output{
+    display: grid;
+    grid-template-columns: 1fr;  
+    /* justify-content: space-evenly;
+    align-items: center; */
+    height: 100vh;
+
+  }
+
+.createLog-action{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ .connect-action,
+form{
+    max-width:450px;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+.consoleLog{
+border: solid 2px #999999;
+padding: 5px;
+max-width:450px;
+width: 100%;
+height: 172px;
+overflow-y: scroll;
+margin: 0 auto;
+background-color: #FDFFFE;
+color:#000;
+}
+
+/* color schemo for button  disable or not*/
+
+ .connect_message.on, .connect_message.off{
+     background-color: #512d98;
+     
+ }
+ .connect_message.on:disabled,
+ .connect_message.off:disabled,
+ .connect_message.send:disabled,
+ .connect_message.clear:disabled{
+     background-color:#FDFFFE;
+     color:  #999999;
+ }
+ 
+ .connect_message.send{
+     background-color: #232b89;
+ }
+ .connect_message.clear{
+     background-color: #EE494C;
+ }
+
+ 

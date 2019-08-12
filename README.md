@@ -31,7 +31,8 @@ I choose javaScript to do the task
 
  ## 🧐  Demo
  
- ![websocket_workInProgress](https://user-images.githubusercontent.com/18241226/62872452-71a34880-bd15-11e9-8b35-0f4411987979.gif)
+ ![websocket-progress](https://user-images.githubusercontent.com/18241226/62895448-c7dcaf80-bd46-11e9-9418-62ed5291a2e1.gif)
+
 
 
      
@@ -48,7 +49,7 @@ What I have successfully been able to do :
  
 
  What I am working on :
-- list should be updated on every new tick received, but always display the latest 10 ticks.
+- list should be updated on every new tick received, but always display the latest 10 ticks. I use setInterval method but I am not convince that it is a good solution
 
  
 

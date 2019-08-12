@@ -10,24 +10,32 @@
 </head>
 
 <body>
-<div class="container">
+  
+  <header>
+      <!-- navbar -->
+      <nav class="navbar">
+          <div class="navbar-center">
+            <img src="binary-symbol-logo.svg" alt="binary-symbol-logo" class="nav-icon">
+          </div>            
+      </nav>
+  </header>
+
+  <div class="container">
     <form id="searchForm">
-        <!-- Form Group -->
-          <select
-            name=""
-            id="searchCategory"
-            class="custom-select text-capitalize"
-          >
-          </select>
-      </form>
- 
-      <div class="quote__container">
-            <h2 id="result"></h2>
-          <div class="quote__display">
-              
-          </div>
-      </div>
+          <!-- Form Group -->
+      <select
+              name=""
+              id="searchCategory"
+              class="custom-select text-capitalize"
+            >
+        </select>
+    </form>
+  
+    <div class="quote__container">
+      <h2 id="result"></h2>
+      <div class="quote__display"></div>
     </div>
+  </div>
 
       <script src="app.js"></script>
 </body>

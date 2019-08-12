@@ -5,7 +5,7 @@ And another one is sample chat , it is located on the sample_webSocket_test fold
 
 ## web-socket  project  
 
-  I am learning web socket after an unfortunate realisation during a test for a job that I had no idea how web socket works. So I basically spend the day afterwards reading documentation and playing around-- there is a lot of tutorial implementing web socket for chat application  but this is not really what I needed to do.  Below is a demo of what I ended up with so far -- but still working on improving :)
+  I am learning web socket after an unfortunate realisation during a test for a job that I had no idea how web socket works. So I basically spend the day reading documentation and playing around-- there is a lot of tutorial implementing web socket for chat application  but this is not really what I needed to do.  Below is a demo of what I ended up with so far -- but still working on improving :)
 
   ## 🧐 Front-end Developer Test intruction
   The requirement were:
@@ -31,8 +31,7 @@ I choose javaScript to do the task
 
  ## 🧐  Demo
  
-![web-socket-first-attempt](https://user-images.githubusercontent.com/18241226/62806948-16424200-baec-11e9-8916-f7455b426e74.gif)
-
+ ![websocket_workInProgress](https://user-images.githubusercontent.com/18241226/62872452-71a34880-bd15-11e9-8b35-0f4411987979.gif)
 
 
      
@@ -42,14 +41,16 @@ What I have successfully been able to do :
 2. Display all the symbols belonging to the `volidx` market in a drop-down.
 3. According to the selected symbol in the drop-down:
 - Send a `Tick Stream` API call using the same WebSocket connection
+4. According to the selected symbol in the drop-down:
+- Send a `Tick Stream` API call using the same WebSocket connection
+- Display a box containing the `quote` value of the latest 10 ticks.
 
- What I have not been able to do :
-- Display a box containing the `quote` value of the latest 10 ticks. That means the list should be updated on every new tick received, but always display the latest 10 ticks.
+ 
 
--- So far I am only able to get 1 ticks that update constantly 
-my comment: I need to check  within the API doc...
+ What I am working on :
+- list should be updated on every new tick received, but always display the latest 10 ticks.
 
--- There is a bug after selecting one symbol from the dropdown I cannot reselect a new one :( -- I did something wrong but I don't see yet what
+ 
 
 
 
